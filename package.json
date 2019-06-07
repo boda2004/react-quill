@@ -40,7 +40,9 @@
     "quill": "^0.20.1"
   },
   "peerDependencies": {
-    "react": ">=0.14.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "blanket": "^1.1.6",
@@ -48,8 +50,6 @@
     "jshint": "^2.5.10",
     "mocha": "^2.0.1",
     "mocha-text-cov": "^0.1.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
     "should": "^4.3.0",
     "sinon": "^1.12.1",
     "travis-cov": "^0.2.5",

@@ -4,7 +4,7 @@ var React = require('react'),
 	ReactDOM = require('react-dom'),
 	QuillToolbar = require('./toolbar'),
 	QuillMixin = require('./mixin'),
-	T = React.PropTypes;
+	T = require('prop-types');
 
 // FIXME: Remove with the switch to JSX
 QuillToolbar = React.createFactory(QuillToolbar);

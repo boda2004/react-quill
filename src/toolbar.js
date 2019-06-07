@@ -2,7 +2,7 @@
 
 var React = require('react'),
 	ReactDOMServer = require('react-dom/server'),
-	T = React.PropTypes;
+	T = require('prop-types');
 
 var defaultColors = [
 	'rgb(  0,   0,   0)', 'rgb(230,   0,   0)', 'rgb(255, 153,   0)',
