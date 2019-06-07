@@ -196,7 +196,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		},
 	
 		componentWillUnmount: function() {
-			this.destroyEditor(this.state.editor);
+			if (this.state.editor) {
+				this.destroyEditor(this.state.editor);
+			}
 			// NOTE: Don't set the state to null here
 			//       as it would generate a loop.
 		},
